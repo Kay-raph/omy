@@ -1,11 +1,3 @@
-/*  ---------------------------------------------------
-    Template Name: Fashi
-    Description: Fashi eCommerce HTML Template
-    Author: Colorlib
-    Author URI: https://colorlib.com/
-    Version: 1.0
-    Created: Colorlib
----------------------------------------------------------  */
 
 'use strict';
 
@@ -47,7 +39,7 @@
         animateOut: 'fadeOut',
         animateIn: 'fadeIn',
         navText: ['<i class="ti-angle-left"></i>', '<i class="ti-angle-right"></i>'],
-        smartSpeed: 1200,
+        smartSpeed: 3000,
         autoHeight: false,
         autoplay: true,
     });
@@ -62,7 +54,7 @@
         items: 4,
         dots: true,
         navText: ['<i class="ti-angle-left"></i>', '<i class="ti-angle-right"></i>'],
-        smartSpeed: 1200,
+        smartSpeed: 2000,
         autoHeight: false,
         autoplay: true,
         responsive: {
