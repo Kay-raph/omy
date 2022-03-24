@@ -25,6 +25,7 @@ h1 {
 
 h2 {
 	font-size: 36px;
+	color: #fd6a36;
 }
 
 h3 {
@@ -55,7 +56,13 @@ p {
 img {
 	max-width: 100%;
 }
-
+.heropage{
+	background-image: url("../img/Omybanner-01.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: fixed;
+	
+}
 input:focus,
 select:focus,
 button:focus,
@@ -88,7 +95,7 @@ ol {
 .section-title .product-price {
 	font-size: 24px;
 	font-weight: 700;
-	color: #04837e;
+	color: #fd6a36;
 }
 
 .section-title .product-price span {
@@ -821,7 +828,7 @@ ol {
 	color: #fd6a36;
 	font-weight: 700;
 	font-style: italic;
-	font-size: 32px;
+	font-size: 22px;
 }
 
 .hero-items .single-hero-items .primary-btn {
@@ -1194,7 +1201,7 @@ ol {
 }
 
 .product-item .pi-pic ul li.w-icon.active a {
-	background: #04837e;
+	background: #fd6a36;
 	color: #ffffff;
 }
 
@@ -1229,7 +1236,7 @@ ol {
 }
 
 .product-item .pi-text .product-price {
-	color: #04837e;
+	color: #fd6a36;
 	font-size: 20px;
 	font-weight: 700;
 }
@@ -1305,8 +1312,8 @@ ol {
 
 .instagram-photo .insta-item {
 	float: left;
-	width: 16.66%;
-	height: 320px;
+	width: 100%;
+	height: 520px;
 	text-align: center;
 	position: relative;
 }
@@ -3874,12 +3881,17 @@ ol {
 	.nav-item .nav-menu li a {
 		padding: 16px 45px 15px;
 	}
+	.instagram-photo .insta-item {
+		width: 100%;
+		background-size: contain;
+	}
 }
 
 @media only screen and (min-width: 1200px) {
 	.container {
 		max-width: 1170px;
 	}
+	
 }
 
 /* Medium Device: 1200px */
@@ -4037,8 +4049,9 @@ ol {
 
 @media only screen and (max-width: 767px) {
 	.instagram-photo .insta-item {
-		width: 50%;
-		height: 300px;
+		width: 100%;
+		height: 150px;
+		background-size: contain;
 	}
 	.copyright-reserved .copyright-text {
 		float: none;
@@ -4147,11 +4160,7 @@ ol {
 	.cart-table table tr th {
 		font-size: 12px;
 	}
-	.hero-items .single-hero-items {
-		padding: 110px 25px 80px;
-		height: auto;
-		background-position: center center;
-	}
+	
 	.hero-items .single-hero-items h1 {
 		font-size: 40px;
 	}
@@ -4209,6 +4218,7 @@ ol {
 @media only screen and (max-width: 479px) {
 	.instagram-photo .insta-item {
 		width: 100%;
+		background-size: contain;
 	}
 	.inner-header .advanced-search .category-btn {
 		display: none;
